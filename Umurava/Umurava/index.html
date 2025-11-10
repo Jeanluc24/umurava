@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Ticket</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <div id="header">
+            <div class="container">
+                <div class="overlay">
+                    <nav>
+                        <img src="" class="logo"><!---------Insert lof logo here------------->
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#About">About us</a></li>
+                            <li><a href="#courses">Courses</a></li>
+                            <li><a href="#why-career-ticket">Why a Career Ticket?</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#support">Blog</a></li>
+                            <li><a href="#" class="btns" id="login-btn">Sign in</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-text">
+                        <p> Equip yourself with the skills to thrive in the digital age</p>
+                        <h1>Are you a young person looking to launch your career as <span>a Freelancer, Remote worker,
+                            Consultant, Entrepreneur, or Employee? </span><br>In Rwanda
+                        </h1><br>
+                        <a href="#" class="btns btn2 i">Enroll today</a>
+                        <a href="#" class="btns btn2 i">Schedule a call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---------------Login form------------------>
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form>
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter Email Address" name="email" required>
+            <input type="password" class="box" placeholder="Enter Password" name="password" required>
+            <input type="submit" value="Login now" class="btn">
+            <!-- Add forgot password and register links -->
+            <p>Forgot password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Register now</a></p>
+        </form>
+    </div>
+    <!--------------About us---------------------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/IMG_7052.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, reiciendis iusto sunt iste expedita consequuntur iure consequatur tempora minus vero quidem ullam cupiditate exercitationem non eligendi ex odit beatae vel!</p>
+                     
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Our Story</p>
+                        <p class="tab-links"onclick="opentab('experience')">Mission</p>
+                        <p class="tab-links"onclick="opentab('education')">Vision</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Half employers say they cannot find candidates with advanced digital skills. Roles requiring
+                                digital skills often pay more than those that do not. As we are building Africa’s Largest Quality
+                                talents to service local and global employers, we experience high demand and requirements
+                                for our talents to have high-level of digital skills and ability to use digital tools to perform
+                                their responsibilities. We have also recorded a high number of talents who failed to meet the
+                                employers’ expectation, especially international employers because of the lack of 21st Century
+                                skills.<br><br>
+                                That is why we have designed a job readiness program that equips young people with
+                                21st-century skills that accelerate their career growth and increase their competencies for
+                                navigating the challenges and opportunities available in the current digital age and knowledge
+                                economy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Empowering young people to thrive in the Knowledge Economy and Future of work.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> To become the leading job readiness program that equips young individuals with the essential
+                                21st-century skills needed to excel in diverse career paths, fostering their confidence and
+                                competence to navigate the challenges and opportunities of the digital age and knowledge
+                                economy.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------Courses---------------------->
+    <div id="courses">
+        <div class="container">
+            <h1 class="sub-title">Courses.</h1>
+            <div class="courses-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Digital Skills</h2>
+                    <p> Develop proficiency in Microsoft Suite, Google Suite, and essential
+                        computer operations.
+                    </p>
+                    <a href="#">Learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrow-up-short-wide"></i>
+                    <h2>Soft Skills</h2>
+                    <p> Develop the interpersonal abilities that are crucial for success in any
+                        workplace.
+                    </p>
+                    <a href="#">Learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Workplace Tools</h2>
+                    <p> Master AI-powered tools such as ChatGPT and project management
+                        platforms like Trello and Asana.  
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h2>Career Skills</h2>
+                    <p> Learn resume writing, interview skills, professional networking, and other
+                        essential career-building strategies. 
+                    </p>
+                    <a href="#">Learn more</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------why-career-ticket-------------------------------->
+    <div id="why-career-ticket">
+        <div class="container">
+            <h1 class="sub-title">Why Career Ticket?</h1>
+            <div class="why-career-ticket-list">
+                <div class="career">
+                    <img src="assets/mission.jpeg">
+                    <div class="layer">
+                        <h3>Empowering Mission</h3>
+                        <p>We are dedicated to helping young people thrive in the
+                            knowledge economy and the future of work.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="career">
+                    <img src="assets/curriculum-clipart-1.png">
+                    <div class="layer">
+                        <h3>Comprehensive Curriculum</h3>
+                        <p>Acquire a well-rounded skill set that prepares you for any
+                            career path.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="career">
+                    <img src="assets/Learning.jpg">
+                    <div class="layer">
+                        <h3>Flexible Learning</h3>
+                        <p> Learn at your own pace and convenience.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="career">
+                    <img src="assets/Mentorship.jpg">
+                    <div class="layer">
+                        <h3>ExpertMentorship</h3>
+                        <p> Receive guidance from experienced professionals.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btns">See more</a>
+        </div>
+    </div>
+<!--------------------------contact----------------------------->  
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>marketplace@umurava.africa</p>
+                <p> <i class="fa-solid fa-phone"></i>+250 798 685 382</p>
+                <p><i class="fa-solid fa-location-dot"></i>Umurava, Kigali, Rwanda</p>
+                <p><i class="fa-regular fa-clock"></i>Monday - Friday: 8:00 - 17:00</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></fa-facebook> </a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></i></fa-facebook> </a>
+                    <a href=""><i class="fab fa-instagram"></i></fa-facebook> </a>
+                    <a href=""><i class="fab fa-linkedin"></i></fa-facebook> </a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Your Names" required>
+                    <input type="email" name="Email" placeholder="Enter Your Email" required>
+                    <input type="text" name="Subject" placeholder="Enter Your Subject" required>
+                    <textarea name="Message" rows="6" placeholder="Enter Your Message" required></textarea>
+                    <button type="submit"class="btns btn2" >Submit</button>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Support------------------------------------->
+    <div id="support">
+        <div class="container">
+            <div class="row">
+                <h2>Support and FAQs</h2>
+                <div class="col-md-6">
+                    <h3>FAQs</h3>
+                    <ul>
+                        <li><a href="#">How do I contact customer support?</a></li>
+                        <li><a href="#">How do I get my order tracking number?</a></li>
+                        <li><a href="#">What is the return policy?</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Footer------------------------------------->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Supports</h3>
+                    <ul>
+                        <li><a href="#">GPT/Chatbox Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p>&copy; 2024 Umurava. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
